@@ -1,0 +1,229 @@
+body {
+	margin-top: 0;
+}
+.topname {
+	color: #06b5e4;
+	text-align: center;
+	font-weight: 300;
+	font-size: 3.5em;
+	margin-top: 0;
+}
+
+.navbar {
+	list-style-type: none;
+	text-align: center;
+	margin-top: -15px;
+	margin-bottom: 30px;
+	padding-left: 0;
+
+}
+.para{
+	margin-left: 20px;
+	font-size: 120%;
+}
+
+h3{
+	color: #18abd2;
+}
+
+.ovalbutton{
+	border-radius:40px;
+	background: #337ab7;
+	padding: 10px;
+	width: 100px;
+	height: 40px;
+	font-family: Century Gothic, sans-serif;
+	font-size: 18px;
+	display: inline;
+	text-align: center;
+}
+.selectedbutton{
+	border-radius:40px;
+	background: #339bb7;
+	padding: 10px;
+	width: 100px;
+	height: 40px;
+	font-family: Century Gothic, sans-serif;
+	font-size: 18px;
+	display: inline;
+	text-align: center;
+}
+#mugshot{
+	margin-right 20px;
+	height: 640px;
+	width: 640px;
+	float: left;
+	size: 50%;
+}
+a:hover{
+	transition: .1s linear;
+	color: #b7334e;
+}
+a:active{
+	text-decoration: none;
+}
+
+.arrowleft{
+	width: 0; 
+	height: 0; 
+	border-top: 100px solid transparent;
+	border-bottom: 100px solid transparent; 
+	border-right:100px solid blue; 
+	margin-top: 100px;
+	float: left;
+	
+}
+
+
+#classlink{
+	position: fixed;
+	left:0px;
+	bottom:0px;
+	height: 50px;
+	width: 100px;
+	background: #06b5e4;
+	text-align: center;
+}
+
+#mymainpage{
+	position: fixed;
+	left:110px;
+	bottom:0px;
+	height: 50px;
+	width: 100px;
+	background: #06b5e4;
+	text-align: center;
+}
+
+
+/*STUFF FOR RESUME*/
+
+.mainname{
+	font-size:36pt;
+	font-family: Merriweather;
+	margin: 5px;
+	padding: 0px;
+	float: left;
+	height: 50%;
+}
+
+#objective{
+	clear: left;
+	float: left;
+	margin-left: 10px;
+	font-size: 9pt;
+	font-family: "Open Sans";
+}
+
+.sectionHeading{
+	font-size: 11pt;
+	font-family: Merriweather;
+}
+.subheader{
+	font-size: 8pt;
+	font-family: Open Sans;
+}
+
+.sectionpara{
+	font-size:9pt;
+	font-family: Merriweather;
+}
+.secdiv{
+	clear:left;
+	float: left;
+	margin-left: 10px;
+	width: 55%;
+}
+
+#rightDiv{
+	float: right;
+	width: 42%;
+}
+.address{
+	/*float: right; */
+}
+
+.sectionBlueHead{
+	font-size: 11pt;
+	color: #06b5e4;
+	margin-top: 60px;
+}
+
+#resumeCenter{
+	margin: auto;
+}
+
+#download{
+	border-radius:40px;
+	background: #337ab7;
+	padding: 10px;
+	width: 100px;
+	height: 40px;
+	font-family: Century Gothic, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+}
+
+#bigdiv{
+	margin: 20px;
+}
+
+
+
+/* Education */
+
+#schooling{
+	max-width: 700px;
+	margin-right: 20px;
+}
+
+/*personal*/
+
+.imageLink{
+	content:url("media/horses.jpg");
+
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #18abd2;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+	margin: 5px;
+	border: 1px solid #ffffff;
+    display: inline;
+}
+
+div.img a:hover img {
+	transition: .1s linear;
+    border: 1px solid #337ab7;
+}
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+#gall{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 1000px;
+}
+
+.invisible{
+	font-size: 0;
+}
+
+a {
+	font-size: 25px;
+	margin-top: 20px;
+}
